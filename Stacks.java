@@ -16,19 +16,19 @@ public class Stacks{
 		stack.push("Blasphemous");
 		stack.push("Injustice");
 
-		//System.out.println("Is the stack empty? \n" + stack.empty());
+		System.out.println("Is the stack empty? \n" + stack.empty());
 		
-		// stack.pop();
-		// stack.pop();
-		// stack.pop();
+		stack.pop();
+		stack.pop();
+		stack.pop();
 
-		// System.out.println(stack);
+		System.out.println(stack);
 
-		//System.out.println("Last stack item: " + stack.peek());
+		System.out.println("Last stack item: " + stack.peek());
 
-		// System.out.println(stack.search("Injustice"));
-		// System.out.println(stack.search("God of War"));
-		// System.out.println(stack.search("Grime"));
+		System.out.println(stack.search("Injustice"));
+		System.out.println(stack.search("God of War"));
+		System.out.println(stack.search("Grime"));
 		
 		// Use of stacks
 		// 1. Undo/redo things done (Ctrl + Z)
